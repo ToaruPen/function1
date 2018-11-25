@@ -1,8 +1,8 @@
-      const extractContent = (text) => {
+    const extractContent = (text) => {
         let result = [];
-        description[key].name.forEach(function (key) {
-          if (text.match(name))  {
-            result.push(description[key].description)
+        description.forEach(function (value) {
+          for (let key in obj)  {
+            result.push(description[key])
           }
         });
         return result
